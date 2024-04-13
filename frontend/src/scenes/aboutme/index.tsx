@@ -1,21 +1,10 @@
 import useMediaQuery from '@/hooks/useMediaQuery';
 import { SelectedPage } from '@/shared/types';
 import { motion } from "framer-motion";
+import Logos from './Logos';
 
 import HeadShot from '@/assets/headshot.png';
 import BigLogo from '@/assets/jakebiglogo.png';
-
-import GoLogo from '@/assets/gologo.png';
-import JsLogo from '@/assets/jslogo.png';
-import PythonLogo from '@/assets/pythonlogo.png';
-import RedisLogo from '@/assets/redislogo.png';
-import AwsLogo from '@/assets/awslogo.png';
-import GitLogo from '@/assets/gitlogo.png';
-import MongoDbLogo from '@/assets/mongodb.png';
-import SplunkLogo from '@/assets/splunk.png';
-import TsLogo from '@/assets/typescript.png';
-import DockerLogo from '@/assets/dockerlogo.png';
-import SeleniumLogo from '@/assets/seleniumlogo.png';
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -97,17 +86,7 @@ const AboutMe = ({ setSelectedPage }: Props) => {
                 <div className='h-[150px] w-full bg-primary-100 py-10'>
                     <div className='mx-auto w-5/6'>
                         <div className="flex w-full items-center justify-between gap-8">
-                            <img alt='Python logo' src={PythonLogo}/>
-                            <img alt='Go logo' src={GoLogo}/>
-                            <img alt='Splunk logo' src={DockerLogo}/>
-                            <img alt='Redis logo' src={RedisLogo}/>
-                            <img alt='Aws logo' src={AwsLogo}/>
-                            <img alt='Git logo' src={GitLogo}/>
-                            <img alt='js logo' src={JsLogo}/>
-                            <img alt='js logo' src={TsLogo}/>
-                            <img alt='Mongo logo' src={MongoDbLogo}/>
-                            <img alt='Splunk logo' src={SplunkLogo}/>
-                            <img alt='Selenium logo' src={SeleniumLogo}/>
+                            <Logos/>
                         </div>
                     </div>
                 </div>
