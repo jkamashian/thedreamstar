@@ -1,5 +1,5 @@
 export enum SelectedPage {
     AboutMe = "aboutme",
-    Experience = "experience",
+    Experiences = "experiences",
     projects = "projects",
   }

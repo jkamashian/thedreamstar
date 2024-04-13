@@ -25,9 +25,10 @@ export default {
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
+        pixelifysans: ["Pixelify Sans", "sans-serif"]
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
+        gogopher: "url('./assets/gogopher.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",

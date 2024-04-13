@@ -17,12 +17,12 @@ function Link({
     <AnchorLink
       className={`
       ${selectedPage === lowerCasePage ? "text-primary-500" : ""}
-      transition duration-500 hover:text-primary-300
+      transition duration-500 hover:text-primary-300 font-pixelifysans
       `}
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
-        {"{"+page+"}"}
+        {page}
     </AnchorLink>
   )
 }
