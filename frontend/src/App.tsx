@@ -1,6 +1,6 @@
 import Navbar from "@/scenes/navbar"
 import AboutMe from "@/scenes/aboutme"
-import Experince from "@/scenes/experiences"
+import Experiences from "@/scenes/experiences"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types";
 
@@ -30,7 +30,7 @@ function App() {
         setSelectedPage={setSelectedPage}
       />
       <AboutMe setSelectedPage={setSelectedPage}/>
-      <Experince setSelectedPage={setSelectedPage}/>
+      <Experiences setSelectedPage={setSelectedPage}/>
     </div>
   )
 }

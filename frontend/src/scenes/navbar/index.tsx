@@ -23,10 +23,10 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                 <div className={`${flexBetween} mx-auto w-5/6`}>
                     <div className={`${flexBetween} w-full gap-4`}>
                         {/* left side*/}
-                        <a href="https://github.com/jkamashian">
+                        <a href="https://github.com/jkamashian" target="_blank">
                             <img alt="github" src={Github}/>
                         </a>
-                        <a href="https://www.linkedin.com/in/jacobkamashian/">
+                        <a href="https://www.linkedin.com/in/jacobkamashian/" target="_blank">
                             <img alt="github" src={LinkedIn}/>
                         </a>
                         

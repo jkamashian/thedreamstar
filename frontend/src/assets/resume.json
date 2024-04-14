@@ -1,0 +1,194 @@
+{
+    "name": "Jacob Kamashian",
+    "photo": "headshot.png",
+    "logo": "jakebiglogo.png",
+    "location": "Layton, Utah, USA",
+    "linkedin": "https://www.linkedin.com/in/jacobkamashian/",
+    "github": "https://github.com/jkamashian",
+    "summery": "Results-driven Senior Software Engineer with over 10 years of experience in full-stack development, project management, and team leadership. Proficient in delivering high-quality, scalable software solutions while collaborating effectively with cross-functional teams. Committed to meeting deadlines, driving business results, and mentoring junior colleagues through strong technical expertise, effective communication, and problem-solving skills.",
+    "education": {
+        "schoolName": "Westwood College",
+        "degree":"Bachelor of Computer Science",
+        "major": "Game Software Development",
+        "graduationYear": "2010"
+    },
+    "experiences":[
+        {
+            "companyName":"Rakuten Advertising",
+            "logo": "rakuten.png",
+            "link": "https://rakutenadvertising.com/",
+            "note": "Ad Exchange Core Team",
+            "jobTitle": "Senior Software Engineer",
+            "startDate": "March 2022",
+            "endDate": "Present",
+            "location": "Salt Lake City, UT (Remote)",
+            "bullets": [
+                "Bolstered the development and maintenance on an OpenRTB ad exchange server, coding in Go, and deployed on GCP servers.",
+                "Expertly integrated multiple third-party demand partners into our platform, significantly enhancing revenue streams and broadening market reach.",
+                "Pioneered a pivotal migration from JSON-based messaging to a more efficient GRPC in Pub/Sub, achieving over 30% cost reduction in messaging and storage.",
+                "Mentored peers in software development best practices, fostering a collaborative and knowledge-sharing environment despite not having direct reports.",
+                "Managed projects using Scrum and Kanban methodologies, ensuring agile and efficient workflow management"
+              ],
+              "skills":["GO", "SQL", "AQL", "JSON", "MySql", "Areospike", "YML", "OpenRTB", "Docker", "CircleCI", "Terraform", "GCP(Google Cloud Platform)", "Grafana", "Kubernetes", "Jira", "Confluence"],
+              "images": []
+        },
+        {
+            "companyName":"First American Title",
+            "logo": "firstam.png",
+            "link": "https://www.firstam.com/",
+            "note": "Verys Contractor",
+            "jobTitle": "Senior Software Engineer",
+            "startDate": "October 2021",
+            "endDate": "March 2022",
+            "location": "Remote",
+            "bullets": [
+                "Engineered serverless GraphQL endpoints utilizing AWS Lambda, enhancing system scalability and efficiency.",
+                "Implemented integration with Camunda for streamlined visualizations of backend processes, facilitating improved operational transparency.",
+                "Collaborated closely with the client to design and implement an automated title processing workflow from start to finish, optimizing efficiency and accuracy."
+              ],
+              "skills":["Amazon Web Services (AWS)", "GraphQL", "Terraform", "Serverless", "Camunda", "Back-End Web Development", "MySql"],
+              "images": []
+        },
+
+        {
+            "companyName":"Zenimax Media Inc.",
+            "logo": "zmilogo.png",
+            "link": "https://bethesda.net/",
+            "note": "Verys Contractor",
+            "jobTitle": "Software Developer",
+            "startDate": "June 2017",
+            "endDate": "October 2021",
+            "location": "Santa Ana, CA (Remote)",
+            "bullets": [
+                "Redesigned and maintained the account system for www.bethesda.net, initially in Python and later in Go, to enhance user experience and security.",
+                "Integrated external logins (Facebook, Epic, Steam, Google Play) and implemented security measures, such as rate limiting and password resets.",
+                "Improved application monitoring and performance using Splunk and New Relic, reducing response times and increasing uptime.",
+                "Authored comprehensive documentation and established coding and workflow standards, clarifying the onboarding process for new demand partners and streamlining developer training. This initiative dramatically reduced operational ambiguities and enhanced team productivity.",
+                "Played a crucial role in the successful launch of Fallout 76 by providing real-time support and technical expertise."
+              ],
+              "skills":[ "Go", "Flask", "Python", "Docker", "Splunk", "Redis", "PostgreSQL", "Amazon Web Services (AWS)", "Unit Testing", "JSON Web Token (JWT)", "OAuth"],
+              "images": []
+        },
+        
+        {
+            "companyName":"Verys",
+            "logo": "verys.png",
+            "link": "https://www.linkedin.com/company/verys/about/",
+            "note": "",
+            "jobTitle": "Lead Senior Software Developer",
+            "startDate": "June 2017",
+            "endDate": "March 2022",
+            "location": "Santa Ana, CA (Remote)",
+            "bullets": [
+                "Played a key role in shaping company policy and conducting employee performance evaluations, driving organizational excellence and development.",
+                "Crafted and executed comprehensive employee training programs, significantly enhancing team productivity and fostering skill advancement.",
+                "Spearheaded the development of innovative prototypes and projects, contributing to company expansion and elevating client satisfaction levels"
+                
+              ],
+              "skills":["Back-End Web Development", "Team Management", "Team Leadership", "Training", "Interviewing", "Project Planning"],
+              "images": []
+        },
+        {
+            "companyName":"Midigator LLC",
+            "logo": "midigator.png",
+            "link": "https://midigator.com/",
+            "note": "",
+            "jobTitle": "Python Engineer",
+            "startDate": "May 2016",
+            "endDate": "May 2017",
+            "location": "San Diego, CA",
+            "bullets": [
+                "Accelerated data acquisition speed by 3x within the first month, significantly increasing efficiency.",
+                "Built, maintained, and improved a scalable web automation platform to support company growth.",
+                "Trained team members in advanced data acquisition techniques, fostering a culture of continuous learning.",
+                "Took on the Lead QA role during staffing shortage, ensuring product quality and timely delivery."
+              ],
+              "skills":["Python", "MongoDB", "MySQL", "Web Scraping", "Testing", "Selenium"],
+              "images": []
+        },
+        {
+            "companyName":"Verisys Corporation",
+            "logo": "verisys.png",
+            "link": "https://verisys.com/",
+            "note": "",
+            "jobTitle": "Python Engineer",
+            "startDate": "April 2015",
+            "endDate": "May 2016",
+            "location": "South Jordan, UT",
+            "bullets": [
+                "Facilitated the transition from paid software to robust open-source solutions, resulting in cost savings and improved performance.",
+                "Developed a web automation platform for efficient data collection across hundreds of sites.",
+                "Designed and executed a training program to transform non-programmers into valuable engineers.",
+                "Achieved 100% unit test coverage for Python code, enhancing code quality and maintainability.."
+              ],
+              "skills":["Python", "PostgreSQL", "Flask", "Django", "Web Scraping", "Selenium", "Unit Testing"],
+              "images": []
+        },
+        {
+            "companyName":"Age of Learning, Inc",
+            "logo": "aofl.png",
+            "link": "https://www.abcmouse.com/",
+            "note": "Creators of abcmouse.com",
+            "jobTitle": "Programer",
+            "startDate": "January 2012",
+            "endDate": "January 2015",
+            "location": "Glendale, CA",
+            "bullets": [
+                "Implemented code for international organizations and launched in-house tools using PHP, AS3, HTML5, and SQL, improving content management capabilities.",
+                "Ensured HTML5 browser compatibility and cross-platform support for a seamless user experience.",
+                "Designed and executed a training program to transform non-programmers into valuable engineers.",
+                "Developed and maintained web pages compatible with Android, iOS, IE, Firefox, and Chrome."
+              ],
+              "skills":["ActionScript", "JavaScript", "PHP", "SQL", "AS3", "SQL", "HTML5", "CSS"],
+              "images": []
+        },
+        {
+            "companyName":"SQA²",
+            "logo": "sqa.png",
+            "link": "https://sqasquared.com/",
+            "note": "Company was formally Known as SQA Resources",
+            "jobTitle": "Lead QA Analyst",
+            "startDate": "January 2011",
+            "endDate": "January 2012",
+            "location": "Orange, CA",
+            "bullets": [
+                "Automated integration test cases using Selenium and Python, streamlining the testing process and reducing manual effort.",
+                "Trained and mentored new employees in QA processes and best practices, enhancing team performance and productivity.",
+                "Tested and validated improvements on websites for high-profile clients, such as Shopzilla Inc, Beachbody.com, and Oversee.com, ensuring optimal user experience and functionality."
+              ],
+              "skills":["Python", "Selenium", "Test Automation", "Testing",  "Databases", "SQL", "QA"],
+              "images": []
+        }
+    ],
+    "projects":[
+        {
+            "name": "React Quiz",
+            "logo": "reactlogo.png",
+            "link": "https://github.com/jkamashian/LearnReactJS",
+            "description": "This is a small react trivia quiz I created as part of the learning process for getting to know react.",
+            "youtube": "https://www.youtube.com/watch?v=cGkFjfsKYDA",
+            "skills":["React", "Javascript"],
+            "images":[]
+        },
+        {
+            "name": "The Foo Go Webserver",
+            "logo": "gopher.png",
+            "link": "https://github.com/jkamashian/GoSample",
+            "description": "This was a demo project I did for my interview process at Rakuten. It demonstrated my use of GO, Docker, Redis & documentation. It was made in a weekend but I still think it did a good job highlighting some skills.",
+            "youtube": "https://www.youtube.com/watch?v=bAmNHKfEfsw",
+            "skills":["GO", "Docker", "Redis", "Make", "REST"],
+            "images":[]
+        },
+        {
+            "name": "Unity Multiplayer",
+            "logo": "Unity.png",
+            "link": "https://github.com/jkamashian/UnityMultiplayer",
+            "description": "This was a small project I worked on with a friend to grasp an understanding of development in unity and to see if could create a true multi player game.",
+            "youtube": "",
+            "skills":["C#", "Unity", "Multiplayer", "Game Engine"],
+            "images":[]
+        }
+
+    ]
+
+}
