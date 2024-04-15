@@ -25,7 +25,7 @@ function Skills({resumeData}:Props) {
   return (
     <div className="flex w-full items-center justify-between gap-8 ">
        <div className="mb-4">
-          <h4 className="text-lg font-semibold mb-2">Skills Utilized:</h4>
+          <h4 className="text-lg font-semibold mb-2">Skills:</h4>
           <div className="flex flex-wrap">
             {uniqueSkills.map((skill: string, index: number) => (
               <span key={index} className="inline-block py-1 px-2 rounded-lg bg-gray-200 mr-2 mb-2">{skill}</span>
