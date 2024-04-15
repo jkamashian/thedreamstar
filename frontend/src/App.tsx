@@ -3,6 +3,7 @@ import AboutMe from "@/scenes/aboutme"
 import Experiences from "@/scenes/experiences"
 import { useEffect, useState } from "react"
 import { SelectedPage } from "@/shared/types";
+import Projects from "./scenes/projects";
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       />
       <AboutMe setSelectedPage={setSelectedPage}/>
       <Experiences setSelectedPage={setSelectedPage}/>
+      <Projects setSelectedPage={setSelectedPage}/>
     </div>
   )
 }

@@ -22,18 +22,13 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
             <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`} >
                 <div className={`${flexBetween} mx-auto w-5/6`}>
                     <div className={`${flexBetween} w-full gap-4`}>
-                        {/* left side*/}
-                        <a href="https://github.com/jkamashian" target="_blank">
-                            <img alt="github" src={Github}/>
-                        </a>
-                        <a href="https://www.linkedin.com/in/jacobkamashian/" target="_blank">
-                            <img alt="github" src={LinkedIn}/>
-                        </a>
-                        
-                        {/* right side*/}
                         {isAboveMediumScreens ? (
                             <div className={`${flexBetween} w-full`}>
+                                <a href="https://github.com/jkamashian" target="_blank">
+                                    <img alt="github" src={Github}/>
+                                </a>
                                 <div className={`${flexBetween} gap-8 mx-auto w-3/6`}>
+                                    
                                     <Link 
                                         page="About Me"
                                         selectedPage={selectedPage}
@@ -51,17 +46,27 @@ const Navbar = ({isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                                     />
                                 </div>
                                 <div className={`${flexBetween} gap-8`}>
-                                    <p>Contact Me</p>
-                                    <button>Email</button>
+                                <a href="https://www.linkedin.com/in/jacobkamashian/" target="_blank">
+                                    <img alt="github" src={LinkedIn}/>
+                                </a>
                                 </div>
                             </div>
                         ) : (
-                            <button
+                            <div className={`${flexBetween} w-full `}>
+                                <a href="https://github.com/jkamashian" target="_blank">
+                                    <img alt="github" src={Github}/>
+                                </a>
+                                <a href="https://www.linkedin.com/in/jacobkamashian/" target="_blank">
+                                    <img alt="github" src={LinkedIn}/>
+                                </a>
+                                <button
                                 className="rounded-full bg-secondary-500 p-2"
                                 onClick={()=> setMenuToggled(!isMenuToggled)}
                             >
                                 <Bars3Icon className="h-6 w-6 text-white" />
                             </button>
+                            </div>
+                            
                         )}
                     </div>
                 </div>

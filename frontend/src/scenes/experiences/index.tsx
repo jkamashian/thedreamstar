@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { SelectedPage, ExperienceType } from "@/shared/types";
+import { SelectedPage, ExperienceType, Profile } from "@/shared/types";
 import HText from "@/shared/HText";
 import Experience from "./Experience";
 import Resume from "@/assets/resume.json"
-import { Profile } from "@/shared/types";
 const resumeData: Profile = Resume as Profile
+
 const experiences = resumeData.experiences
 
 

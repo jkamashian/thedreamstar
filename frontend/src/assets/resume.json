@@ -163,19 +163,19 @@
     "projects":[
         {
             "name": "React Quiz",
-            "logo": "reactlogo.png",
+            "logo": "react.png",
             "link": "https://github.com/jkamashian/LearnReactJS",
             "description": "This is a small react trivia quiz I created as part of the learning process for getting to know react.",
-            "youtube": "https://www.youtube.com/watch?v=cGkFjfsKYDA",
+            "youtube": "https://www.youtube.com/embed/cGkFjfsKYDA",
             "skills":["React", "Javascript"],
             "images":[]
         },
         {
             "name": "The Foo Go Webserver",
-            "logo": "gopher.png",
+            "logo": "gologo.png",
             "link": "https://github.com/jkamashian/GoSample",
             "description": "This was a demo project I did for my interview process at Rakuten. It demonstrated my use of GO, Docker, Redis & documentation. It was made in a weekend but I still think it did a good job highlighting some skills.",
-            "youtube": "https://www.youtube.com/watch?v=bAmNHKfEfsw",
+            "youtube": "https://www.youtube.com/embed/bAmNHKfEfsw",
             "skills":["GO", "Docker", "Redis", "Make", "REST"],
             "images":[]
         },
