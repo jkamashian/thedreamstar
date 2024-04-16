@@ -181,11 +181,11 @@
         },
         {
             "name": "Unity Multiplayer",
-            "logo": "Unity.png",
+            "logo": "unity.png",
             "link": "https://github.com/jkamashian/UnityMultiplayer",
             "description": "This was a small project I worked on with a friend to grasp an understanding of development in unity and to see if could create a true multi player game.",
             "youtube": "",
-            "skills":["C#", "Unity", "Multiplayer", "Game Engine"],
+            "skills":["C#", "Unity", "Game Development","Online Multiplayer", "Game Engine"],
             "images":[]
         }
 

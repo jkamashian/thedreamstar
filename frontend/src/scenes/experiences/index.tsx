@@ -3,6 +3,8 @@ import { SelectedPage, ExperienceType, Profile } from "@/shared/types";
 import HText from "@/shared/HText";
 import Experience from "./Experience";
 import Resume from "@/assets/resume.json"
+import imageMap from "@/shared/ImageMap";
+
 const resumeData: Profile = Resume as Profile
 
 const experiences = resumeData.experiences
@@ -31,7 +33,7 @@ const Experiences = ({setSelectedPage}: Props) => {
       <Experience
         key={experience.companyName}
         companyName={experience.companyName}
-        logo={experience.logo}
+        logo={imageMap[experience.logo]}
         link={experience.link}
         jobTitle={experience.jobTitle}
         startDate={experience.startDate}

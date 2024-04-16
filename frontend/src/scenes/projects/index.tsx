@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Resume from "@/assets/resume.json"
 import Project from "./Project";
+import imageMap from "@/shared/ImageMap";
 const resumeData: Profile = Resume as Profile
 const projects = resumeData.projects
 
@@ -25,7 +26,7 @@ const Projects = ({setSelectedPage}: Props) => {
             <Project
             key={project.name}
             name={project.name}
-            logo={project.logo}
+            logo={imageMap[project.logo]}
             link={project.link}
             description={project.description}
             youtube={project.youtube}

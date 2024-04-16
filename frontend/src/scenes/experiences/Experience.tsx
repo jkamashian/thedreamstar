@@ -1,4 +1,7 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
+
+
+
 type Props = {
   companyName: string,
   logo: string,
@@ -24,9 +27,10 @@ function Experience({
   skills,
   images,
 }: Props) {
+  if(logo === undefined){logo = ""}
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
   const backgroundImageStyle = {
-    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/src/assets//${logo})`,
+    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${logo})`,
     backgroundSize: 'auto',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'right 15px top 20px',
@@ -42,7 +46,7 @@ function Experience({
         ) : (
           <div className="mb-4 text-center">
             <a href={link} target="_blank" rel="noopener noreferrer" className="text-xl font-bold text-primary-500 hover:underline">
-              <img src={`/src/assets/${logo}`} alt={companyName} className="mx-auto mb-2" />
+              <img src={`${logo}`} alt={companyName} className="mx-auto mb-2" />
               {companyName}
             </a>
           </div>
